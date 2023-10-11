@@ -1,0 +1,24 @@
+#navbar-screen{
+    height: 40px;
+    width: 100%;
+    /* border: 1px solid green; */
+    position: sticky;
+    top: 0;
+    background-color: #1D1D1F;
+}
+#navbar-screen > div{
+    height: 40px;
+    width: 78%;
+    margin: auto;
+    /* border: 1px solid red; */
+    color: rgb(185, 185, 185);
+    display: flex;
+    justify-content: space-between;
+}
+#navbar-screen > div > p{
+    font-size: 12px;
+    font-weight: 500;
+}
+#navbar-screen > div > i{
+    margin-top: 10px;
+}
