@@ -1,0 +1,82 @@
+#apple-log-screen{
+    height: 670px;
+    width: 100%;
+    /* border: 2px solid green; */
+}
+.apple-log-head{
+    width: 78%;
+    margin: auto;
+    height: 130px;
+    border: 1px solid white;
+    margin-top: 2px;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: left;
+}
+.apple-log-main{
+    /* border: 1px solid red; */
+    margin: auto;
+    height: 380px;
+    width: 40%;
+    /* margin-top: 10px; */
+}
+.apple-log-text{
+    font-size: 23px;
+    font-weight: 500;
+    color: rgb(76, 76, 76);
+    margin-bottom: 40px;
+}
+.apple-log-button{
+    width: 94%;
+    border-radius: 10px;
+    margin: auto;
+    height: 55px;
+    border: 1px solid black;
+    margin-bottom: 120px;
+}
+
+.apple-log-remember{
+    /* border: 1px solid red; */
+    width: 27%;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.apple-log-remember > input{
+    height: 16px;
+    width: 15px;
+    border: 1px solid rgb(76, 76, 76);;
+    outline: none;
+}
+.apple-log-remember > span{
+    color: rgb(76, 76, 76);
+    font-size: 17px;
+}
+.apple-log-a{
+    font-size: 14.5px;
+    /* border: 1px solid red; */
+    color: rgba(0, 0, 255, 0.816);;
+}
+.apple-log-p{
+    font-size: 14px;
+    margin-top: 7px;
+}
+.apple-log-p > a{
+    color: rgba(0, 0, 255, 0.816);
+}
+.apple-log-line{
+    width: 100%;
+    border-top: 1px solid grey;
+    margin-top: 90px;
+}
+.apple-log-last{
+    font-size: 17px;
+    font-weight: 400;
+    text-align: left;
+    margin-inline-start: 11%;
+}
+.apple-log-last > a{
+    color: rgba(0, 0, 255, 0.816);
+}

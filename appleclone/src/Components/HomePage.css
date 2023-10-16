@@ -257,11 +257,12 @@
     border: 1px solid black;
     height: 500px;
     width: 100%;
+    overflow-y: hidden;
     overflow-x: scroll;
     display:flex;
 }
 #Apple-body3 > div{
-    width: 80%;
+    width: 100%;
     margin: auto;
     height: 100%;
     border: 1px solid green;

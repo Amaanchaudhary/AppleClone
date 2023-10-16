@@ -1,0 +1,106 @@
+#apple-reg-screen{
+    border: 2px solid green;
+    height: 800px;
+    width: 100%;
+}
+.apple-reg-top{
+    height: 50px;
+    width: 100%;
+    border: 1.3px solid grey;
+}
+.apple-reg-top > div{
+    height: 50px;
+    width: 78%;
+    margin: auto;
+    display: flex;
+    /* border: 1.3px solid red; */
+    justify-content: space-between;
+}
+.apple-reg-top > div > h2{
+    font-weight: 500;
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+.apple-reg-top-right{
+    /* border: 1px solid black;*/
+    width: 23.5%;
+    height: 55%;
+    display: flex;
+    justify-content: space-between;
+    align-self:flex-end;
+}
+.apple-reg-top-right > a{
+    font-size: 12px;
+}
+
+.apple-reg-body{
+    height: 600px;
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+}
+.apple-reg-innerbody{
+    height: 370px;
+    width: 45%;
+    margin: auto;
+    border: 1px solid black;
+}
+.apple-reg-top-h1{
+    font-size: 36px;
+    margin-top: 30px;
+    margin-bottom: 3px;
+}
+.apple-reg-top-span{
+    font-size: 17.5px;
+}
+.apple-reg-name{
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.apple-reg-name > input{
+    width: 47%;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+::placeholder{
+    font-size: 17px;
+    padding-left: 10px;
+}
+.apple-reg-country-p{
+    text-align: left;
+    margin-top: 25px;
+    color: grey;
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+.apple-select{
+    height: 55px;
+    border: 1px solid rgba(128, 128, 128, 0.573);
+    border-radius: 5px;
+    width: 100%;
+    font-size: 17px;
+    color: rgb(39, 38, 38);
+    padding-left: 10px;
+}
+.apple-reg-date{
+    height: 55px;
+    border: 1px solid rgba(128, 128, 128, 0.573);
+    border-radius: 5px;
+    width: 99.5%;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 17px;
+    color: rgb(39, 38, 38);
+}
+.apple-reg-line{
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid grey;
+
+}

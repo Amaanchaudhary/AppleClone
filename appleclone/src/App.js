@@ -3,6 +3,9 @@ import './App.css';
 import HomePage from './Components/HomePage'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer';
+import Login from './Components/Login';
+import Register from './Components/Register';
+
 
 
 function App() {
@@ -13,6 +16,8 @@ function App() {
         <Route path='/' element={<HomePage/>} />
         <Route path='/navbar' element={<Navbar/>} />
         <Route path='/footer' element={<Footer/>} />
+        <Route path='/login' element={<Login/>} />
+        <Route path='/register' element={<Register/>} />
       </Routes>
       <Footer/>
     </div>
