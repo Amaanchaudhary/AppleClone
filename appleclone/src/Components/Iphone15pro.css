@@ -1,5 +1,5 @@
 #apple15pro-screen{
-    height: 1000px;
+    height: 3000px;
     width: 100%;
     border: 2px solid green;
 }
@@ -20,16 +20,122 @@
     font-weight: 100;
 } 
 .apple15-body1{
-    height: 500px;
+    height: 600px;
     width: 100%;
-    border: 2px solid blue;
+    border: 1px solid black;
+    background-color: black;
+}
+.apple15-image1{
+    height: 310px;
+    width: 100%;
+    /* border: 2px solid red;    */
+    margin-top: 100px;
     background-image: url(https://www.apple.com/in/iphone-15-pro/images/overview/welcome/hero_endframe__ov6ewwmbhiqq_large_2x.jpg);
-    background-size: 100% 80%;
+    background-size: 100% 120%;
     background-repeat: no-repeat;
 }
-.apple15-body1 > p{
+.apple15-image1 > p{
     color: rgba(248, 241, 227, 0.649);
     font-size: 30px;
     letter-spacing: -1px;
+    /* border: 1px solid white; */
+    margin-top: 0px;
     font-weight: 600;
+}
+.apple15-button1{
+    width: 75px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #0071E3;
+    border: 1px solid #0071E3;
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.apple15-div1-P{
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+}
+.apple15-body2{
+    border: 1px solid #101010;
+    height: 1120px;
+    width: 100%;
+    background-color: #101010;
+}
+.apple15-body2-heading{
+    /* border: 1px solid white; */
+    height: 100px;
+    width: 92%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+.apple15-body2-heading > h1{
+    font-size: 52px;
+    color: grey;
+}
+.apple15-body2-heading > div{
+    /* border: 1px solid white; */
+    height: 30px;
+    width: 30%;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.apple15-body2-heading > div > a{
+    color: white;
+    font-size: 20px;
+    /* border: 1px solid white; */
+    color: #0071E3;
+}
+.apple15-body2-image{
+    height: 600px;
+    width: 92%;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 30px;
+    text-align: left;
+    border-radius: 20px;
+    background-image: url(https://www.apple.com/v/iphone-15-pro/b/images/overview/highlights/video/highlights_chip_endframe__3159yn2mzkyi_large_2x.jpg);
+    background-size: 100% 100%;
+}
+.apple15-body2-image > p{
+    color: white;
+    font-size: 28px;
+    margin: 0%;
+    padding: 0%;
+    line-height: 30px;
+    margin-inline-start: 40px;
+    font-weight: 500;
+}
+.apple15-body3{
+    height: 1000px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: black;
+    text-align: left;
+}
+.apple15-body3 > h1{
+    /* border: 1px solid white; */
+    font-size: 52px;
+    margin-top: 200px;
+    color: grey;
+    margin-bottom: 70px;
+    margin-left: 40px;
+}
+.apple15-body3 > div{
+    /* border: 1px solid white; */
+    height: 450px;
+    width: 20%;
+    margin: auto;
+    background-image: url(https://www.apple.com/in/iphone-15-pro/images/overview/closer-look/blue_titanium__wsqgpa9i1822_large_2x.jpg);
+    background-size: 100% 100%;
+}
+.apple15-body3 > p{
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 12.5px;
 }
