@@ -5,7 +5,7 @@ import Navbar from './Components/Navbar'
 import Footer from './Components/Footer';
 import Login from './Components/Login';
 import Register from './Components/Register';
-
+import Iphone15pro from './Components/Iphone15pro';
 
 
 function App() {
@@ -18,6 +18,7 @@ function App() {
         <Route path='/footer' element={<Footer/>} />
         <Route path='/login' element={<Login/>} />
         <Route path='/register' element={<Register/>} />
+        <Route path='/iphone15pro' element={<Iphone15pro/>} />
       </Routes>
       <Footer/>
     </div>
