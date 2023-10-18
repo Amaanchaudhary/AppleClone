@@ -32,6 +32,40 @@ const Iphone15pro = () => {
                 <div>   </div>
                 <p>6.7” iPhone 15 Pro Max1 and 6.1” iPhone 15 Pro1 in Blue Titanium</p>
             </div>
+            <div className='apple15-body4'>
+                <h1 className='apple15-body4-h1'>Explore the full story.</h1>
+                <h1 className='apple15-body4-h12'>iPhone.</h1>
+                <h1 className='apple15-body4-h12'>Forged in titanium.</h1>
+                <div className='apple15-body4-3image'>
+                    <div>
+                        <img style={{ height: "117%" }}
+                            src='https://www.apple.com/v/iphone-15-pro/b/images/overview/design/titanium_endframe__jkbvub6cqj6u_large_2x.jpg' />
+                    </div>
+                    <div>
+                        <img src='https://www.apple.com/v/iphone-15-pro/b/images/overview/design/lightest__boybgwifuehe_large_2x.jpg' />
+                    </div>
+                    <div>
+                        <img src='https://www.apple.com/v/iphone-15-pro/b/images/overview/design/durable__omxi3w443rue_large_2x.jpg' />
+                    </div>
+                </div>
+                <div className='apple15-body4-p'>
+                    <div>
+                        <p>
+                            iPhone 15 Pro is the first iPhone to feature an
+                            aerospace‑grade titanium design, using the same alloy
+                            that spacecraft use for missions to Mars.
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            Titanium has one of the best strength‑to‑weight
+                            ratios of any metal, making these our lightest Pro models
+                            ever. You’ll notice the difference the moment you
+                            pick one up.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

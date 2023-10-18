@@ -15,8 +15,11 @@
     display: flex;
     justify-content: space-between;
 }
-#navbar-screen > div > p{
+#navbar-screen > div > a{
     font-size: 12px;
+    margin-top: 12px;
+    color: grey;
+    text-decoration: none;
     font-weight: 500;
 }
 #navbar-screen > div > i{

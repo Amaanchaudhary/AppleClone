@@ -11,7 +11,7 @@ import Iphone15pro from './Components/Iphone15pro';
 function App() {
   return (
     <div className="App">
-      {/* <Navbar/> */}
+      <Navbar/>
       <Routes>
         <Route path='/' element={<HomePage/>} />
         <Route path='/navbar' element={<Navbar/>} />

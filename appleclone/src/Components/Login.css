@@ -65,6 +65,7 @@
 }
 .apple-log-p > a{
     color: rgba(0, 0, 255, 0.816);
+    text-decoration: none;
 }
 .apple-log-line{
     width: 100%;
