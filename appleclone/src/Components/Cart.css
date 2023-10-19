@@ -1,0 +1,232 @@
+#cart-screen {
+    width: 100%;
+    height: 2000px;
+    border: 2px solid green;
+}
+
+.cart-header {
+    height: 70px;
+    background-color: #F5F5F7;
+    width: 100%;
+    border: 1px solid #F5F5F7;
+}
+
+.cart-header>p {
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.cart-header>a {
+    font-size: 14px;
+    color: rgb(0, 149, 255);
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.cart-topdiv {
+    height: 175px;
+    width: 77%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.345);
+    margin: auto;
+}
+
+.cart-topdiv>h1 {
+    font-size: 40px;
+    font-weight: 600;
+    /* border: 1px solid grey; */
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+
+.cart-topdiv>button {
+    width: 280px;
+    border: 1px solid #0071E3;
+    background-color: #0071E3;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.cart-body {
+    height: 1000px;
+    width: 77%;
+    margin: auto;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-left {
+    height: 100%;
+    width: 24%;
+    border: 1px solid black;
+}
+
+.cart-product-img {
+    height: 19%;
+    width: 86%;
+    margin: auto;
+    margin-top: 65px;
+    /* border: 1px solid black; */
+}
+
+.cart-product-img>img {
+    width: 100%;
+    height: 100%;
+}
+
+.cart-right {
+    height: 100%;
+    width: 75%;
+    /* border: 1px solid black; */
+}
+
+.cart-product-detials {
+    height: 29%;
+    width: 100%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.233);
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-product-details-left {
+    height: 100%;
+    width: 43%;
+    /* border: 1px solid red; */
+    text-align: left;
+}
+
+.cart-product-details-left>h1 {
+    font-size: 22px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+.cart-product-details-left>p {
+    margin-top: 0px;
+    font-size: 14.6px;
+    margin-top: 40px;
+}
+
+.cart-product-details-right {
+    height: 100%;
+    width: 47%;
+    /* border: 1px solid red; */
+}
+
+.cart-pdr-div1 {
+    width: 100%;
+    height: 40px;
+    /* border: 1px solid green; */
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-pdr-div1>select {
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    width: 40px;
+}
+
+.cart-pdr-div1>h2 {
+    margin-top: 0%;
+    font-weight: 600;
+}
+
+.cart-pdr-div2 {
+    height: 130px;
+    text-align: right;
+    width: 100%;
+    /* border: 1px solid red; */
+    margin-top: 35px;
+}
+
+.cart-pdr-div2>p {
+    margin: 0%;
+    font-size: 14px;
+    color: rgb(149, 92, 18);
+    margin-bottom: 5px;
+}
+
+.cart-pdr-div2>span {
+    font-size: 14px;
+}
+
+.cart-pdr-div2>button {
+    font-size: 16px;
+    margin-top: 20px;
+    color: #0071E3;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+.cart-addapplecare {
+    height: 170px;
+    width: 100%;
+    border: 1px solid blue;
+    text-align: left;
+}
+
+.care-applecare-div1 {
+    height: 40px;
+    width: 100%;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.care-applecare-div1>div {
+    height: 40px;
+    width: 57%;
+    display: flex;
+    border: 1px solid blue;
+}
+
+.care-applecare-div1 > div > h3 {
+    font-size: 17.5px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.care-applecare-div1 > div > i {
+    margin-top: 20px;
+    color: red;
+}
+.care-applecare-div1 > button{
+    border: none;
+    font-size: 17px;
+    color: #0071E3;
+    background-color: white;
+    padding-top: 15px;
+}
+.cart-applecare-ul{
+    margin-top: 7px;
+    font-size: 14px;
+    line-height: 25px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+}
+.cart-applecare-learnmore{
+    margin-left: 20px;
+    color: #0071E3;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.cart-delivery-details{
+    height: 150px;
+    width: 100%;
+    text-align: left;
+    border: 1px solid blue;
+}
+.cart-delivery-details > h3{
+    font-weight: 500;
+    font-size: 17px;
+}
+.cart-delivery-details > h3 > span{
+   color: #0071E3;
+}

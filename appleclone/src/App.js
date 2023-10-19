@@ -6,6 +6,7 @@ import Footer from './Components/Footer';
 import Login from './Components/Login';
 import Register from './Components/Register';
 import Iphone15pro from './Components/Iphone15pro';
+import Cart from './Components/Cart';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path='/login' element={<Login/>} />
         <Route path='/register' element={<Register/>} />
         <Route path='/iphone15pro' element={<Iphone15pro/>} />
+        <Route path='/cart' element={<Cart/>} />
       </Routes>
       <Footer/>
     </div>
