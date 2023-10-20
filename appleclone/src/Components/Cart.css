@@ -1,7 +1,7 @@
 #cart-screen {
     width: 100%;
     height: 2000px;
-    border: 2px solid green;
+    border: 1px solid white;
 }
 
 .cart-header {
@@ -54,15 +54,16 @@
     height: 1000px;
     width: 77%;
     margin: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 
 .cart-left {
     height: 100%;
     width: 24%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .cart-product-img {
@@ -169,14 +170,14 @@
 .cart-addapplecare {
     height: 170px;
     width: 100%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     text-align: left;
 }
 
 .care-applecare-div1 {
     height: 40px;
     width: 100%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     display: flex;
     justify-content: space-between;
 }
@@ -185,48 +186,183 @@
     height: 40px;
     width: 57%;
     display: flex;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
-.care-applecare-div1 > div > h3 {
+.care-applecare-div1>div>h3 {
     font-size: 17.5px;
     font-weight: 500;
     margin-left: 10px;
 }
-.care-applecare-div1 > div > i {
+
+.care-applecare-div1>div>i {
     margin-top: 20px;
     color: red;
 }
-.care-applecare-div1 > button{
+
+.care-applecare-div1>button {
     border: none;
     font-size: 17px;
     color: #0071E3;
     background-color: white;
     padding-top: 15px;
 }
-.cart-applecare-ul{
+
+.cart-applecare-ul {
     margin-top: 7px;
     font-size: 14px;
     line-height: 25px;
     margin-left: 15px;
     margin-bottom: 0px;
 }
-.cart-applecare-learnmore{
+
+.cart-applecare-learnmore {
     margin-left: 20px;
     color: #0071E3;
     font-size: 14px;
     margin-top: 5px;
 }
-.cart-delivery-details{
+
+.cart-delivery-details {
     height: 150px;
     width: 100%;
     text-align: left;
-    border: 1px solid blue;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.233);;
+    border-top: 1px solid rgba(128, 128, 128, 0.233);;
 }
-.cart-delivery-details > h3{
+
+.cart-delivery-details>h3 {
     font-weight: 500;
     font-size: 17px;
+    margin-bottom: 5px;
 }
-.cart-delivery-details > h3 > span{
-   color: #0071E3;
+
+.cart-delivery-details>h3>span {
+    color: #0071E3;
+
+}
+
+.cart-delivery-span {
+    margin-right: 130px;
+
+    font-size: 14px;
+}
+
+.cart-delivery-span>i {
+    margin-right: 10px;
+}
+
+.cart-total {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.233);;
+    height: 110px;
+    width: 100%;
+}
+
+.cart-total>div {
+    /* border: 1px solid green; */
+    margin-top: 20px;
+    height: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cart-total>div>p {
+    font-size: 17px;
+}
+
+.cart-checkout {
+    /* border: 1px solid blue; */
+    height: 230px;
+    width: 100%;
+}
+
+.cart-checkout-h1-p{
+    margin-top: -10px;
+    height: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.cart-checkout-h1-p  > h3{
+   font-size: 24px;
+   font-weight: 500;
+}
+.cart-checkout-h1-p > p{
+   font-size: 17px;
+   font-weight: 400;
+}
+.cart-last-div{
+    height: 150px;
+    width: 50%;
+    /* border: 1px solid red; */
+    margin: 30px;
+    margin-inline-start: 50%;
+    text-align: right;
+}
+.cart-last-div > p{
+    font-weight: 400;
+    font-size: 17px;
+    margin-bottom: 10px;
+    color: rgb(175, 112, 18);
+}
+.cart-last-div > a{
+    font-weight: 500;
+    font-size: 13.6px;
+    margin-bottom: 10px;
+    color:#0071E3;
+}
+.cart-last-div > button{
+    height: 55px;
+    width: 360px;
+    background-color: #0071E3;
+    color: white;
+    font-size: 17px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 45px;
+    font-weight: 500;
+}
+.cart-line{
+    width: 100%;
+    border-top: 1px solid rgba(128, 128, 128, 0.261);
+    margin-top: 10px;
+}
+.cart-helpline{
+    text-align: left;
+    margin-inline-start: 10%;
+    font-size: 18px;
+}
+
+.cart-more-product{
+    border: 1px solid white;
+    height: 400px;
+    width: 77%;
+    margin: auto;
+    margin-top: 80px;
+    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/apple-new-arrivals-checkout-201804?wid=1960&hei=800&fmt=jpeg&qlt=90&.v=1523551959954);
+    background-size: 100% 100%;
+    text-align: left;
+
+}
+.cart-more-product > h2{
+    font-size: 32px;
+    font-weight: 500;
+    margin-inline-start: 15%;
+    margin-block-start: 13%;
+    margin-bottom: 0px;
+}
+.cart-more-product > p{
+    font-size: 17px;
+    margin-top: 5px;
+    font-weight: 400;
+    margin-inline-start: 11.5%;
+    margin-bottom: 15px;
+}
+.cart-more-product > a{
+    font-size: 17px;
+    margin-top: 5px;
+    font-weight: 400;
+    margin-inline-start: 22%;
+    color: #0071E3;
 }

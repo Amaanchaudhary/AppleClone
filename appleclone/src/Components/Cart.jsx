@@ -62,10 +62,44 @@ const Cart = () => {
                     </div>
                     <div className='cart-delivery-details'>
                         <h3>Find out how soon you can get this item. <span>Enter pin code</span></h3>
-                        <span>Ship in 2-3 weeks.</span>
-                        <span>Pick up at an Apple Store near you</span>
+                        <span className='cart-delivery-span'><i class="fa-solid fa-cube fa-lg"></i>Ships in 7-10 business days.</span>
+                        <span className='cart-delivery-span'><i class="fa-solid fa-bag-shopping fa-lg"></i>Pick up at an Apple Store near you</span>
+                    </div>
+                    <div className='cart-total'>
+                        <div>
+                            <p>Subtotal</p>
+                            <p>₹134900.00</p>
+                        </div>
+                        <div style={{ marginTop: '15px' }}>
+                            <p>Shipping</p>
+                            <p>FREE</p>
+                        </div>
+                    </div>
+                    <div className='cart-checkout'>
+                        <div className='cart-checkout-h1-p'>
+                            <h3>Total</h3>
+                            <h3>₹134900.00</h3>
+                        </div>
+                        <div style={{ marginTop: '25px' }} className='cart-checkout-h1-p'>
+                            <p>Monthly payment</p>
+                            <p>₹21483.00/mo.^ with EMI</p>
+                        </div>
+
+                        <div className='cart-last-div'>
+                            <p>Total savings of ₹11457.00 with eligible card(s)^</p>
+                            <a>Explore instant Cashback§§ and No Cost EMI§</a><br/> 
+                            <button>Check Out</button>
+                        </div>
                     </div>
                 </div>
+            </div>
+            <h1 className='cart-line'></h1>
+            <p className='cart-helpline'>Need some help?<a> Chat now </a>or call 000800 040 1966.</p>
+            <h1 className='cart-line'></h1>
+            <div className='cart-more-product'>
+                <h2>New Arrivals</h2>
+                <p>Check out the latest accessories.</p>
+                <a>Shop</a>
             </div>
         </div>
     )
