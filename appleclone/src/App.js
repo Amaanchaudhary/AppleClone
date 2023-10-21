@@ -7,12 +7,13 @@ import Login from './Components/Login';
 import Register from './Components/Register';
 import Iphone15pro from './Components/Iphone15pro';
 import Cart from './Components/Cart';
+import AppleSingleProduct from './Components/AppleSingleProduct';
 
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      {/* <Navbar/> */}
       <Routes>
         <Route path='/' element={<HomePage/>} />
         <Route path='/navbar' element={<Navbar/>} />
@@ -21,6 +22,7 @@ function App() {
         <Route path='/register' element={<Register/>} />
         <Route path='/iphone15pro' element={<Iphone15pro/>} />
         <Route path='/cart' element={<Cart/>} />
+        <Route path='/singleproduct' element={<AppleSingleProduct/>} />
       </Routes>
       <Footer/>
     </div>

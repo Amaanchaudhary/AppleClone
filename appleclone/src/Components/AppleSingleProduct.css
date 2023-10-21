@@ -1,0 +1,157 @@
+#sp-screen{
+    height: 1000px;
+    width: 100%;
+    border: 2px solid green;
+    background-color: black;
+}
+.sp-body{
+    height: 700px;
+    width: 77%;
+    border: 1px solid blue;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 20px;
+}
+.sp-body-upper{
+    border: 1px solid red;
+    height: 80%;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.sp-body-left{
+    border: 1px solid green;
+    width: 47%;
+    height:100%;
+}
+.sp-body-right{
+    border: 1px solid green;
+    width: 51%;
+    height:100%;
+}
+.sp-product-name{
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 8px 22px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.2);
+}
+
+.sp-product-image{
+    height: 340px;
+    width: 88%;
+    margin: auto;
+    margin-top: 40px;
+    /* border: 1px solid red; */
+}
+.sp-product-image > img{
+    height: 100%;
+    width: 100%;
+}
+.sp-color{
+    /* border: 1px solid grey; */
+    margin-top: 10px;
+    height: 20px;
+}
+.sp-color > span{
+    border: 1px solid grey;
+    height: 8px;
+    width: 7px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: grey;
+    margin-right: 13px;
+}
+.sp-colors-p{
+    color: grey;
+    font-size: 13px;
+    margin-top: 40px;
+}
+.sp-color-2{
+    /* border: 1px solid grey; */
+    margin-top: 10px;
+    height: 20px;
+}
+.sp-color-2 > span{
+    border: 1px solid grey;
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: grey;
+    margin-right: 7px;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.724);
+}
+.sp-right-div1{
+    height: 100px;
+    width: 100%;
+    border: 1px solid grey;
+    margin-top: 20px;
+    text-align: left;
+}
+.sp-right-div1 > span{
+    color: rgb(123, 83, 31);
+    font-size: 12px;
+}
+.sp-right-div1 > h1{
+    /* font-size: 12px; */
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.sp-right-div1-div{
+    height: 40px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+.sp-right-div1-div > div >  span{
+    font-size: 14px;
+    font-weight: 500;
+}
+.sp-right-div1-div >  button{
+    font-size: 17px;
+    font-weight: 500;
+    border: none;
+    border-radius: 20px;
+    width: 60px;
+    height: 38px;
+    background-color: #0071E3;
+    color: white;
+}
+.sp-right-div2{
+    height: 380px;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 97%;
+    border: 1px solid orange;
+}
+.sp-right-div2 > div{
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+.sp-right-div2 > div > div:nth-child(1){
+    height: 100%;
+    width: 13%;
+    border: 1px solid green;
+}
+.sp-right-div2 > div > div:nth-child(2){
+    height: 94%;
+    width: 84%;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid green;
+    line-height: 20px;
+    margin-block-start: 5px;
+}

@@ -1,6 +1,9 @@
 import './Navbar.css';
+import {useNavigate} from 'react-router-dom'
 
 const Navbar = () => {
+    const rout = useNavigate();
+
     return(
         <div id='navbar-screen'>
             <div>
@@ -16,7 +19,7 @@ const Navbar = () => {
             <a>Accesories</a>
             <a>Support</a>
             <i class="fa-solid fa-magnifying-glass"></i>
-            <i class="fa-solid fa-bag-shopping"></i>
+            <i className='apple-cart' onClick={() => rout("/cart")} class="fa-solid fa-bag-shopping"></i>
             </div>
         </div>
     )
