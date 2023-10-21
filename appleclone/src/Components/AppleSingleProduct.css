@@ -14,7 +14,8 @@
     border-radius: 20px;
 }
 .sp-body-upper{
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    padding-bottom: 20px;
     height: 80%;
     width: 90%;
     margin: auto;
@@ -23,12 +24,12 @@
     justify-content: space-between;
 }
 .sp-body-left{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 47%;
     height:100%;
 }
 .sp-body-right{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 51%;
     height:100%;
 }
@@ -59,7 +60,7 @@
     height: 20px;
 }
 .sp-color > span{
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
     height: 8px;
     width: 7px;
     border-radius: 50%;
@@ -90,7 +91,7 @@
 .sp-right-div1{
     height: 100px;
     width: 100%;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
     margin-top: 20px;
     text-align: left;
 }
@@ -131,27 +132,67 @@
     margin-top: 20px;
     margin-left: 10px;
     width: 97%;
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
 }
 .sp-right-div2 > div{
     height: 75px;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    border: 1px solid red;
+    border-top: 1px solid rgba(128, 128, 128, 0.417);
 }
 .sp-right-div2 > div > div:nth-child(1){
     height: 100%;
     width: 13%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 .sp-right-div2 > div > div:nth-child(2){
-    height: 94%;
+    height: fit-content;
     width: 84%;
     text-align: left;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 500;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     line-height: 20px;
-    margin-block-start: 5px;
+    /* margin-block-start: 5px; */
+    align-self: center;
+}
+.sp-right-last-a{
+    text-align: left;
+    font-size: 18px;
+    margin-top: 15px;
+    color: #0071E3;
+    font-weight: 400;
+}
+.sp-foot{
+    height: 90px;
+    margin-top: 18px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 93%;
+    margin: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(128, 128, 128, 0.063);
+}
+.sp-foot > div{
+    height: 60px;
+    margin-top: 20px;
+    width: 31%;
+    /* border: 1px solid blue; */
+    text-align: left;
+}
+.sp-foot > div > i{
+   margin-right: 10px;
+   color: rgb(71, 255, 47);
+}
+.sp-foot > div > span{
+   font-size: 15px;
+   font-weight: 500;
+}
+.sp-foot > div > p{
+   font-size: 13px;
+   margin-inline-start: 25px;
+   margin-top: 0px;
 }

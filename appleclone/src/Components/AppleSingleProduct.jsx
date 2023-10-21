@@ -52,23 +52,38 @@ const AppleSingleProduct = () => {
                             </div>
                             <div>
                                 <div></div>
-                                <div>15.5 cm (6.1-inch) Super Retina XDR display¹
-                                    featuring ProMotion, Always-On and
-                                    Dynamic Island</div>
+                                <div>48MP Main camera for super-high-resolution photos and 3x
+                                    Telephoto camera</div>
                             </div>
                             <div>
                                 <div></div>
-                                <div>15.5 cm (6.1-inch) Super Retina XDR display¹
-                                    featuring ProMotion, Always-On and
-                                    Dynamic Island</div>
+                                <div>A17 Pro chip delivers a massive leap in graphics performance,
+                                    transforming mobile gaming</div>
                             </div>
                             <div>
                                 <div></div>
-                                <div>15.5 cm (6.1-inch) Super Retina XDR display¹
-                                    featuring ProMotion, Always-On and
-                                    Dynamic Island</div>
+                                <div>USB-C connector with USB 3 for up to 20x faster
+                                    transfer speeds² and new pro workflows</div>
                             </div>
+                            <p className='sp-right-last-a'>Explore iPhone 15 Pro further</p>
                         </div>
+                    </div>
+                </div>
+                <div className='sp-foot'>
+                    <div>
+                    <i class="fa-solid fa-wallet"></i>
+                    <span>Flexible ways to pay</span>
+                    <p>No Cost EMI§ and EMI◊◊ available.</p>
+                    </div>
+                    <div>
+                    <i class="fa-solid fa-money-bill-trend-up"></i>
+                    <span>Apple Trade In</span>
+                    <p>Trade in your eligible device for credit <br/>towards your next purchase.*</p>
+                    </div>
+                    <div>
+                    <i class="fa-solid fa-truck"></i>
+                    <span>Free delivery and pickup.</span>
+                    <p>Get free delivery or pick up at your Apple <br/>Store.</p>
                     </div>
                 </div>
             </div>
