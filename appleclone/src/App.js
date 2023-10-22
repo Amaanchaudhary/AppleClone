@@ -8,6 +8,7 @@ import Register from './Components/Register';
 import Iphone15pro from './Components/Iphone15pro';
 import Cart from './Components/Cart';
 import AppleSingleProduct from './Components/AppleSingleProduct';
+import AppleProducts from './Components/AppleProducts';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path='/iphone15pro' element={<Iphone15pro/>} />
         <Route path='/cart' element={<Cart/>} />
         <Route path='/singleproduct' element={<AppleSingleProduct/>} />
+        <Route path='/appleproducts' element={<AppleProducts/>}/>
       </Routes>
       <Footer/>
     </div>
