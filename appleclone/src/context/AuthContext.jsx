@@ -42,7 +42,7 @@ const ParentAuthContext = ({ children }) => {
                 }
             }catch(error){
                 console.log(error , "Error hai")
-                toast.error(error.response.data.message)
+                toast.error(error?.response.data.message)
             }
         }
 

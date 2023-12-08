@@ -54,8 +54,8 @@ const Login = () => {
             <form onSubmit={handleSubmit}>
                 <div className='apple-log-main'>
                     <p className='apple-log-text' >Sign in to Apple Store</p>
-                    <input className='apple-log-button' placeholder='Email' name='email' onChange={HandleChange} />
-                    <input className='apple-log-button' placeholder='Password' name='password' onChange={HandleChange} />
+                    <input className='apple-log-button' type='text' placeholder='Email' name='email' onChange={HandleChange} />
+                    <input className='apple-log-button' type='password' placeholder='Password' name='password' onChange={HandleChange} />
                     <div className='apple-log-remember'>
                         <div>
                             <input className='remembercheckbox' type='checkbox' />
