@@ -8,7 +8,8 @@ const Login = () => {
             </div>
             <div className='apple-log-main'>
                 <p className='apple-log-text' >Sign in to Apple Store</p>
-                <input className='apple-log-button' placeholder='Email or Phone Number'/>
+                <input className='apple-log-button' placeholder='Email '/>
+                <input className='apple-log-button' placeholder='Password'/>
                 <div className='apple-log-remember'>
                     <input type='checkbox'/>
                     <span>Remember me</span>
